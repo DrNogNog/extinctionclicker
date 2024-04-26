@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8B9B9D32BDB281B006D39DF /* Extinction_ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9B9D22BDB281B006D39DF /* Extinction_ClickerApp.swift */; };
+		F8B9B9D52BDB281B006D39DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9B9D42BDB281B006D39DF /* ContentView.swift */; };
+		F8B9B9D72BDB281E006D39DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B9B9D62BDB281E006D39DF /* Assets.xcassets */; };
+		F8B9B9DA2BDB281E006D39DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B9B9D92BDB281E006D39DF /* Preview Assets.xcassets */; };
+		F8B9B9E42BDB281E006D39DF /* Extinction_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9B9E32BDB281E006D39DF /* Extinction_ClickerTests.swift */; };
+		F8B9B9EE2BDB281E006D39DF /* Extinction_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9B9ED2BDB281E006D39DF /* Extinction_ClickerUITests.swift */; };
+		F8B9B9F02BDB281E006D39DF /* Extinction_ClickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B9B9EF2BDB281E006D39DF /* Extinction_ClickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B9B9E02BDB281E006D39DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B9B9C72BDB281B006D39DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B9B9CE2BDB281B006D39DF;
+			remoteInfo = "Extinction Clicker";
+		};
+		F8B9B9EA2BDB281E006D39DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B9B9C72BDB281B006D39DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B9B9CE2BDB281B006D39DF;
+			remoteInfo = "Extinction Clicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8B9B9CF2BDB281B006D39DF /* Extinction Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extinction Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B9B9D22BDB281B006D39DF /* Extinction_ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extinction_ClickerApp.swift; sourceTree = "<group>"; };
+		F8B9B9D42BDB281B006D39DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8B9B9D62BDB281E006D39DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B9B9D92BDB281E006D39DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8B9B9DF2BDB281E006D39DF /* Extinction ClickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extinction ClickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B9B9E32BDB281E006D39DF /* Extinction_ClickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extinction_ClickerTests.swift; sourceTree = "<group>"; };
+		F8B9B9E92BDB281E006D39DF /* Extinction ClickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Extinction ClickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B9B9ED2BDB281E006D39DF /* Extinction_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extinction_ClickerUITests.swift; sourceTree = "<group>"; };
+		F8B9B9EF2BDB281E006D39DF /* Extinction_ClickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extinction_ClickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B9B9CC2BDB281B006D39DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9DC2BDB281E006D39DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9E62BDB281E006D39DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8B9B9C62BDB281B006D39DF = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9D12BDB281B006D39DF /* Extinction Clicker */,
+				F8B9B9E22BDB281E006D39DF /* Extinction ClickerTests */,
+				F8B9B9EC2BDB281E006D39DF /* Extinction ClickerUITests */,
+				F8B9B9D02BDB281B006D39DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B9B9D02BDB281B006D39DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9CF2BDB281B006D39DF /* Extinction Clicker.app */,
+				F8B9B9DF2BDB281E006D39DF /* Extinction ClickerTests.xctest */,
+				F8B9B9E92BDB281E006D39DF /* Extinction ClickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B9B9D12BDB281B006D39DF /* Extinction Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9D22BDB281B006D39DF /* Extinction_ClickerApp.swift */,
+				F8B9B9D42BDB281B006D39DF /* ContentView.swift */,
+				F8B9B9D62BDB281E006D39DF /* Assets.xcassets */,
+				F8B9B9D82BDB281E006D39DF /* Preview Content */,
+			);
+			path = "Extinction Clicker";
+			sourceTree = "<group>";
+		};
+		F8B9B9D82BDB281E006D39DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9D92BDB281E006D39DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8B9B9E22BDB281E006D39DF /* Extinction ClickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9E32BDB281E006D39DF /* Extinction_ClickerTests.swift */,
+			);
+			path = "Extinction ClickerTests";
+			sourceTree = "<group>";
+		};
+		F8B9B9EC2BDB281E006D39DF /* Extinction ClickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B9B9ED2BDB281E006D39DF /* Extinction_ClickerUITests.swift */,
+				F8B9B9EF2BDB281E006D39DF /* Extinction_ClickerUITestsLaunchTests.swift */,
+			);
+			path = "Extinction ClickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B9B9CE2BDB281B006D39DF /* Extinction Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B9B9F32BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction Clicker" */;
+			buildPhases = (
+				F8B9B9CB2BDB281B006D39DF /* Sources */,
+				F8B9B9CC2BDB281B006D39DF /* Frameworks */,
+				F8B9B9CD2BDB281B006D39DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Extinction Clicker";
+			productName = "Extinction Clicker";
+			productReference = F8B9B9CF2BDB281B006D39DF /* Extinction Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B9B9DE2BDB281E006D39DF /* Extinction ClickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B9B9F62BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction ClickerTests" */;
+			buildPhases = (
+				F8B9B9DB2BDB281E006D39DF /* Sources */,
+				F8B9B9DC2BDB281E006D39DF /* Frameworks */,
+				F8B9B9DD2BDB281E006D39DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B9B9E12BDB281E006D39DF /* PBXTargetDependency */,
+			);
+			name = "Extinction ClickerTests";
+			productName = "Extinction ClickerTests";
+			productReference = F8B9B9DF2BDB281E006D39DF /* Extinction ClickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8B9B9E82BDB281E006D39DF /* Extinction ClickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B9B9F92BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction ClickerUITests" */;
+			buildPhases = (
+				F8B9B9E52BDB281E006D39DF /* Sources */,
+				F8B9B9E62BDB281E006D39DF /* Frameworks */,
+				F8B9B9E72BDB281E006D39DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B9B9EB2BDB281E006D39DF /* PBXTargetDependency */,
+			);
+			name = "Extinction ClickerUITests";
+			productName = "Extinction ClickerUITests";
+			productReference = F8B9B9E92BDB281E006D39DF /* Extinction ClickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B9B9C72BDB281B006D39DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F8B9B9CE2BDB281B006D39DF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F8B9B9DE2BDB281E006D39DF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F8B9B9CE2BDB281B006D39DF;
+					};
+					F8B9B9E82BDB281E006D39DF = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F8B9B9CE2BDB281B006D39DF;
+					};
+				};
+			};
+			buildConfigurationList = F8B9B9CA2BDB281B006D39DF /* Build configuration list for PBXProject "Extinction Clicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B9B9C62BDB281B006D39DF;
+			productRefGroup = F8B9B9D02BDB281B006D39DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B9B9CE2BDB281B006D39DF /* Extinction Clicker */,
+				F8B9B9DE2BDB281E006D39DF /* Extinction ClickerTests */,
+				F8B9B9E82BDB281E006D39DF /* Extinction ClickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B9B9CD2BDB281B006D39DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9B9DA2BDB281E006D39DF /* Preview Assets.xcassets in Resources */,
+				F8B9B9D72BDB281E006D39DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9DD2BDB281E006D39DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9E72BDB281E006D39DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B9B9CB2BDB281B006D39DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9B9D52BDB281B006D39DF /* ContentView.swift in Sources */,
+				F8B9B9D32BDB281B006D39DF /* Extinction_ClickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9DB2BDB281E006D39DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9B9E42BDB281E006D39DF /* Extinction_ClickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9B9E52BDB281E006D39DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B9B9EE2BDB281E006D39DF /* Extinction_ClickerUITests.swift in Sources */,
+				F8B9B9F02BDB281E006D39DF /* Extinction_ClickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B9B9E12BDB281E006D39DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B9B9CE2BDB281B006D39DF /* Extinction Clicker */;
+			targetProxy = F8B9B9E02BDB281E006D39DF /* PBXContainerItemProxy */;
+		};
+		F8B9B9EB2BDB281E006D39DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B9B9CE2BDB281B006D39DF /* Extinction Clicker */;
+			targetProxy = F8B9B9EA2BDB281E006D39DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8B9B9F12BDB281E006D39DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8B9B9F22BDB281E006D39DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B9B9F42BDB281E006D39DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Extinction Clicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B9B9F52BDB281E006D39DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Extinction Clicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8B9B9F72BDB281E006D39DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extinction Clicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Extinction Clicker";
+			};
+			name = Debug;
+		};
+		F8B9B9F82BDB281E006D39DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-ClickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Extinction Clicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Extinction Clicker";
+			};
+			name = Release;
+		};
+		F8B9B9FA2BDB281E006D39DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Extinction Clicker";
+			};
+			name = Debug;
+		};
+		F8B9B9FB2BDB281E006D39DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordon.Extinction-ClickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Extinction Clicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B9B9CA2BDB281B006D39DF /* Build configuration list for PBXProject "Extinction Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B9B9F12BDB281E006D39DF /* Debug */,
+				F8B9B9F22BDB281E006D39DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B9B9F32BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B9B9F42BDB281E006D39DF /* Debug */,
+				F8B9B9F52BDB281E006D39DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B9B9F62BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction ClickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B9B9F72BDB281E006D39DF /* Debug */,
+				F8B9B9F82BDB281E006D39DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B9B9F92BDB281E006D39DF /* Build configuration list for PBXNativeTarget "Extinction ClickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B9B9FA2BDB281E006D39DF /* Debug */,
+				F8B9B9FB2BDB281E006D39DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B9B9C72BDB281B006D39DF /* Project object */;
+}
